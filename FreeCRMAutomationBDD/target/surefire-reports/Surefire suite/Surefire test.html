@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Oct 10 00:15:52 EDT 2021</td>
+<td>Started on:</td><td>Sun Oct 10 22:49:28 EDT 2021</td>
 </tr>
-<tr><td>Total time:</td><td>74 seconds (74790 ms)</td>
+<tr><td>Total time:</td><td>64 seconds (64194 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,39 +75,26 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='stepdefinitions.ParallelRun2.null()'><b>null</b><br>Test class: stepdefinitions.ParallelRun2</td>
-<td><div><pre>java.lang.NoSuchMethodError: &apos;void org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.constructAppearances()&apos;
-	at org.vandeseer.easytable.drawing.cell.ParagraphCellDrawer.drawContent(ParagraphCellDrawer.java:57)
-	at org.vandeseer.easytable.TableDrawer.lambda$new$0(TableDrawer.java:61)
-	at org.vandeseer.easytable.TableDrawer.drawRow(TableDrawer.java:170)
-	at org.vandeseer.easytable.TableDrawer.drawWithFunction(TableDrawer.java:153)
-	at org.vandeseer.easytable.TableDrawer.lambda$drawPage$1(TableDrawer.java:83)
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
-	at org.vandeseer.easytable.TableDrawer.drawPage(TableDrawer.java:82)
-	at org.vandeseer.easytable.TableDrawer.draw(TableDrawer.java:78)
-	at tech.grasshopper.pdf.chapter.detailed.DetailedRowComponent.display(DetailedRowComponent.java:90)
-	at tech.grasshopper.pdf.chapter.detailed.DetailedPage.lambda$0(DetailedPage.java:42)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at tech.grasshopper.pdf.chapter.detailed.DetailedPage.createPage(DetailedPage.java:39)
-	at tech.grasshopper.pdf.chapter.detailed.DetailedChapter.sendToPage(DetailedChapter.java:115)
-	at tech.grasshopper.pdf.chapter.detailed.DetailedChapter.createAndSendPageData(DetailedChapter.java:38)
-	at tech.grasshopper.pdf.chapter.detailed.DetailedChapter.createChapter(DetailedChapter.java:28)
-	at tech.grasshopper.pdf.PDFCucumberReport.lambda$0(PDFCucumberReport.java:100)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at tech.grasshopper.pdf.PDFCucumberReport.createReport(PDFCucumberReport.java:100)
-	at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter.flush(ExtentPDFCucumberReporter.java:66)
-	at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter.access$1(ExtentPDFCucumberReporter.java:57)
-	at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter$1.onNext(ExtentPDFCucumberReporter.java:42)
-	at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter$1.onNext(ExtentPDFCucumberReporter.java:1)
+<td title='testrunners.MyTestRunner.null()'><b>null</b><br>Test class: testrunners.MyTestRunner</td>
+<td><div><pre>java.lang.NoSuchMethodError: &apos;org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.createFromByteArray(org.apache.pdfbox.pdmodel.PDDocument, byte[], java.lang.String)&apos;
+	at tech.grasshopper.pdf.image.ImageCreator.generateChartImageXObject(ImageCreator.java:25)
+	at tech.grasshopper.pdf.section.dashboard.DashboardDonutDisplay.createDonutChart(DashboardDonutDisplay.java:58)
+	at tech.grasshopper.pdf.section.dashboard.DashboardDonutDisplay.display(DashboardDonutDisplay.java:32)
+	at tech.grasshopper.pdf.section.dashboard.Dashboard.createSection(Dashboard.java:43)
+	at tech.grasshopper.pdf.PDFCucumberReport.createReport(PDFCucumberReport.java:90)
+	at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter.flush(ExtentPDFCucumberReporter.java:81)
+	at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter.access$100(ExtentPDFCucumberReporter.java:19)
+	at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter$1.onNext(ExtentPDFCucumberReporter.java:56)
+	at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter$1.onNext(ExtentPDFCucumberReporter.java:49)
 	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310)
 	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226)
 	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83)
 	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85)
 	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:284)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.finishReport(ExtentCucumberAdapter.java:296)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.access$6(ExtentCucumberAdapter.java:295)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:132)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:1)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.finishReport(ExtentCucumberAdapter.java:300)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.access$600(ExtentCucumberAdapter.java:62)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:136)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:133)
 	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
 	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
 	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:93)
@@ -117,39 +104,26 @@ function toggleAllBoxes() {
 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace753625249", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace753625249'><pre>java.lang.NoSuchMethodError: &apos;void org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.constructAppearances()&apos;
-	at org.vandeseer.easytable.drawing.cell.ParagraphCellDrawer.drawContent(ParagraphCellDrawer.java:57)
-	at org.vandeseer.easytable.TableDrawer.lambda$new$0(TableDrawer.java:61)
-	at org.vandeseer.easytable.TableDrawer.drawRow(TableDrawer.java:170)
-	at org.vandeseer.easytable.TableDrawer.drawWithFunction(TableDrawer.java:153)
-	at org.vandeseer.easytable.TableDrawer.lambda$drawPage$1(TableDrawer.java:83)
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
-	at org.vandeseer.easytable.TableDrawer.drawPage(TableDrawer.java:82)
-	at org.vandeseer.easytable.TableDrawer.draw(TableDrawer.java:78)
-	at tech.grasshopper.pdf.chapter.detailed.DetailedRowComponent.display(DetailedRowComponent.java:90)
-	at tech.grasshopper.pdf.chapter.detailed.DetailedPage.lambda$0(DetailedPage.java:42)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at tech.grasshopper.pdf.chapter.detailed.DetailedPage.createPage(DetailedPage.java:39)
-	at tech.grasshopper.pdf.chapter.detailed.DetailedChapter.sendToPage(DetailedChapter.java:115)
-	at tech.grasshopper.pdf.chapter.detailed.DetailedChapter.createAndSendPageData(DetailedChapter.java:38)
-	at tech.grasshopper.pdf.chapter.detailed.DetailedChapter.createChapter(DetailedChapter.java:28)
-	at tech.grasshopper.pdf.PDFCucumberReport.lambda$0(PDFCucumberReport.java:100)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at tech.grasshopper.pdf.PDFCucumberReport.createReport(PDFCucumberReport.java:100)
-	at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter.flush(ExtentPDFCucumberReporter.java:66)
-	at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter.access$1(ExtentPDFCucumberReporter.java:57)
-	at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter$1.onNext(ExtentPDFCucumberReporter.java:42)
-	at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter$1.onNext(ExtentPDFCucumberReporter.java:1)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace978292362", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace978292362'><pre>java.lang.NoSuchMethodError: &apos;org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject.createFromByteArray(org.apache.pdfbox.pdmodel.PDDocument, byte[], java.lang.String)&apos;
+	at tech.grasshopper.pdf.image.ImageCreator.generateChartImageXObject(ImageCreator.java:25)
+	at tech.grasshopper.pdf.section.dashboard.DashboardDonutDisplay.createDonutChart(DashboardDonutDisplay.java:58)
+	at tech.grasshopper.pdf.section.dashboard.DashboardDonutDisplay.display(DashboardDonutDisplay.java:32)
+	at tech.grasshopper.pdf.section.dashboard.Dashboard.createSection(Dashboard.java:43)
+	at tech.grasshopper.pdf.PDFCucumberReport.createReport(PDFCucumberReport.java:90)
+	at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter.flush(ExtentPDFCucumberReporter.java:81)
+	at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter.access$100(ExtentPDFCucumberReporter.java:19)
+	at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter$1.onNext(ExtentPDFCucumberReporter.java:56)
+	at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter$1.onNext(ExtentPDFCucumberReporter.java:49)
 	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310)
 	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226)
 	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83)
 	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85)
 	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:284)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.finishReport(ExtentCucumberAdapter.java:296)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.access$6(ExtentCucumberAdapter.java:295)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:132)
-	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:1)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.finishReport(ExtentCucumberAdapter.java:300)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.access$600(ExtentCucumberAdapter.java:62)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:136)
+	at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:133)
 	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
 	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
 	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:93)
@@ -185,7 +159,7 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 </pre></div></td>
 <td>0</td>
-<td>stepdefinitions.ParallelRun2</td></tr>
+<td>testrunners.MyTestRunner</td></tr>
 </table><p>
 </body>
 </html>

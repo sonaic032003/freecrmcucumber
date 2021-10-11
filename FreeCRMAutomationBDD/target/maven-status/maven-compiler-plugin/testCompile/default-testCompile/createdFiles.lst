@@ -1,6 +1,4 @@
 testrunners\MyTestRunner.class
-stepdefinitions\ParallelRun.class
-stepdefinitions\ParallelRun2.class
 stepdefinitions\ApplicationHooks.class
 stepdefinitions\ContactsPageSteps.class
 stepdefinitions\LoginPageSteps.class

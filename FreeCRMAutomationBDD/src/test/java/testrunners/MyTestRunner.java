@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "src/test/resources/Features", glue = "stepdefinitions", monochrome = true,dryRun = false,
-		tags = ("@ContactPage"),//("@ContactPage or @LoginPage")
+		tags = ("@ContactPage or @LoginPage"),
 		plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"timeline:test-output-thread/"
 				
